@@ -59,6 +59,8 @@
 
     ![Comando Paso4](/img/paso4_1.png)
 
+    ![Comando Paso4](/img/paso4_2.png)
+
 - Comprobamos que funcione:
 
-    ![Comando Paso4](/img/paso4_2.png)
+    ![Comando Paso4](/img/paso4_3.png)
