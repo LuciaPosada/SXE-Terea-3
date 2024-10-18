@@ -13,6 +13,32 @@
 
 ## 2. Crea un contenedor con el nombre 'dam_web1'
 
-- Crea un contenedor: *dockerrun -d --name dam_web1 -p 8000:80 httpd*
+- Crea un contenedor: *docker run -d --name dam_web1 httpd*
 
     ![Comando Paso2](/img/paso2.png)
+
+## 3. Si quieres poder acceder desde el navegador de tu equipo, ¿que debes hacer?
+
+- Cambiamos el adaptador de la mv a puente
+
+- Paramos el contenedor: *docker stop dam_web1*
+
+- Eliminamos el contenedor: *docker rm dam_web1*
+
+- Lo volvemos a crear asignadole un puerto: *docker run -d --name dam_web1 -p 8000:80 httpd*
+
+    ![Comando Paso3](/img/paso3_1.png)
+
+- Comprobamos que funcione:
+
+    - Comprobamos la ip: *ip address*
+
+        ![Comando Paso3](/img/paso3_2.png)
+
+    - En el navegador: *10.0.9.147:8000*
+
+        ![Comando Paso3](/img/paso3_3.png)
+
+### 3.1 Utiliza bind mount para que el directorio del apache2 'htdocs' esté montado un directorio que tu elijas
+
+http://10.0.9.147:8080/
