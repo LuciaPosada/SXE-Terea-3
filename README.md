@@ -47,8 +47,18 @@
 
 - Lo volvemos a crear con un mount: *docker run -p 8000:80 -v /home/owo/compartidoApache:/usr/local/apache2/htdocs --name dam_web1 httpd
 *
-    ![Comando Paso4](/img/paso3_1_1.png)
+    ![Comando Paso3](/img/paso3_1_1.png)
 
 - Comprobamos que funcione:
 
-    ![Comando Paso4](/img/paso3_1_2.png)
+    ![Comando Paso3](/img/paso3_1_2.png)
+
+## 4. Realiza un 'hola mundo' en html y comprueba que accedes desde el navegador
+
+- Creamos un archivo html en el mount: *sudo nano /home/owo/compartidoApache/index.html*
+
+    ![Comando Paso4](/img/paso4_1.png)
+
+- Comprobamos que funcione:
+
+    ![Comando Paso4](/img/paso4_2.png)
