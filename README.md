@@ -66,6 +66,10 @@
 
 ## 5. Crea otro contenedor 'dam_web2' con el mismo bind mount y a otro puerto, por ejemplo 9080
 
-- Creamos otro contenedor: *docker run -p 9080:80 -v /home/owo/compartidoApache:/usr/local/apache2/htdocs --name dam_web1 httpd*
+- Creamos otro contenedor: *docker run -p 9080:80 -v /home/owo/compartidoApache:/usr/local/apache2/htdocs --name dam_web2 httpd*
 
-    ![Comando Paso5](/img/paso5.png)
+    ![Comando Paso5](/img/paso5_1.png)
+
+- Comprobamos que funcione:
+
+    ![Comando Paso5](/img/paso5_2.png)
