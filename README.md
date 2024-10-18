@@ -74,9 +74,9 @@
 
 - Comprobamos que funcione:
 
-    - En el navegador: *http://10.0.9.147:8000/*
+    - En el navegador: ```http://10.0.9.147:8000/```
 
-    - En el navegador: *http://10.0.9.147:9080/*
+    - En el navegador: ```http://10.0.9.147:9080/```
 
     ![Comando Paso6](/img/paso5_2.png)
 
