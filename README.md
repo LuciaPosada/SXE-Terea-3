@@ -41,4 +41,14 @@
 
 ### 3.1 Utiliza bind mount para que el directorio del apache2 'htdocs' esté montado un directorio que tu elijas
 
-http://10.0.9.147:8080/
+- Creamos un nuevo directorio: *sudo mkdir /home/owo/compartidoApache*
+
+- Volvemos a eliminar el directorio
+
+- Lo volvemos a crear con un mount: *docker run -p 8000:80 -v /home/owo/compartidoApache:/usr/local/apache2/htdocs --name dam_web1 httpd
+*
+    ![Comando Paso4](/img/paso3_1_1.png)
+
+- Comprobamos que funcione:
+
+    ![Comando Paso4](/img/paso3_1_2.png)
