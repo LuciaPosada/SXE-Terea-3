@@ -45,8 +45,7 @@
 
 - Volvemos a eliminar el directorio
 
-- Lo volvemos a crear con un mount: *docker run -p 8000:80 -v /home/owo/compartidoApache:/usr/local/apache2/htdocs --name dam_web1 httpd
-*
+- Lo volvemos a crear con un mount: *docker run -p 8000:80 -v /home/owo/compartidoApache:/usr/local/apache2/htdocs --name dam_web1 httpd*
     ![Comando Paso3](/img/paso3_1_1.png)
 
 - Comprobamos que funcione:
@@ -64,3 +63,9 @@
 - Comprobamos que funcione:
 
     ![Comando Paso4](/img/paso4_3.png)
+
+## 5. Crea otro contenedor 'dam_web2' con el mismo bind mount y a otro puerto, por ejemplo 9080
+
+- Creamos otro contenedor: *docker run -p 9080:80 -v /home/owo/compartidoApache:/usr/local/apache2/htdocs --name dam_web1 httpd*
+
+    ![Comando Paso5](/img/paso5.png)
