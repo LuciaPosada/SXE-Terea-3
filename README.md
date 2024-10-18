@@ -74,8 +74,18 @@
 
 - Comprobamos que funcione:
 
-    - En el navegador: *10.0.9.147:8000*
+    - En el navegador: *http://10.0.9.147:8000/*
 
-    - En el navegador: *10.0.9.147:9080*
+    - En el navegador: *http://10.0.9.147:9080/*
 
-        ![Comando Paso5](/img/paso5_2.png)
+    ![Comando Paso6](/img/paso5_2.png)
+
+## 7. Realiza modificaciones de la página y comprueba que los dos servidores 'sirven' la misma página
+
+- Realizamos cambios en el index: *sudo nano /home/owo/compartidoApache/index.html*
+
+    ![Comando Paso7](/img/paso7_1.png)
+
+- Comprobamos que funcione:
+
+    ![Comando Paso7](/img/paso7_2.png)
