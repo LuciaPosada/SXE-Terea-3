@@ -70,6 +70,12 @@
 
     ![Comando Paso5](/img/paso5_1.png)
 
+## 6. Comprueba que los dos servidores 'sirven' la misma página, es decir, cuando consultamos en el navegador
+
 - Comprobamos que funcione:
 
-    ![Comando Paso5](/img/paso5_2.png)
+    - En el navegador: *10.0.9.147:8000*
+
+    - En el navegador: *10.0.9.147:9080*
+
+        ![Comando Paso5](/img/paso5_2.png)
